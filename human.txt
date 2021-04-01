@@ -1,0 +1,12 @@
+/* TEAM */
+
+Nom de la Team: Asteria games
+Contact: asteriagames.pro@gmail.com
+Twitter: 
+Location: France
+
+
+/* SITE */
+Standards: HTML5, CSS3
+Component: Bootstrap
+Software: Visual Studio Code
