@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
+        <link href="https://asteria-games.github.io/page/rss.xml" rel="self" type="application/rss+xml" />
+        <title>Asteria Games</title>
+        <link>https://asteria-games.github.io</link>
+        <description>Le site Web d'une team de Dev indé qui veulent vivre de leurs passions</description>
+        <language>fr</language>
+        <copyright>Asteria Games</copyright>
         <item>
             <title>Initialisation du Feed RSS</title>
-            <link>https://asteria-games.github.io</link>
             <guid isPermaLink="true">https://asteria-games.github.io</guid>
+            <pubDate>Fri, 2 Apr 2020 21:20:00 +0200</pubDate>
+            <link>https://asteria-games.github.io</link>
             <description>Le feed RSS déployé vous permettra d'obtenir les nouveaux article du site en temps réel</description>
-            <pubDate>Fri, 2 Apr 2020 21:20:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
