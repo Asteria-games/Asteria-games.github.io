@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        
         <item>
             <title>Initialisation du Feed RSS</title>
             <link>https://asteria-games.github.io</link>
@@ -9,6 +8,5 @@
             <description>Le feed RSS déployé vous permettra d'obtenir les nouveaux article du site en temps réel</description>
             <pubDate>Fri, 2 Apr 2020 21:20:00 GMT</pubDate>
         </item>
-
     </channel>
 </rss>
