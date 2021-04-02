@@ -1,9 +1,9 @@
 /* TEAM */
-
 Nom de la Team: Asteria games
 Contact: asteriagames.pro@gmail.com
 Twitter: 
 Location: France
+Paypal: https://paypal.me/AsteriaGames
 
 
 /* SITE */

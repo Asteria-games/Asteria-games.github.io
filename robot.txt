@@ -1,2 +1,3 @@
 User-agent: *
-Disallow:
+Disallow: README.md
+Sitemap: https://Asteria-games.github.io/sitemap.xml

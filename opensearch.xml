@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1">
+    <ShortName>Asteria Games</ShortName>
+    <Description>Recherchez sur le site</Description>
+    <Image>favicon\favicon-32x32.png</Image>
+    <Language>fr</Language>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Url type="text/html" template="https://asteria-games.github.io/search?q={searchterms}"/>
+</OpenSearchDescription>
