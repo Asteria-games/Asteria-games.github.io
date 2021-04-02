@@ -10,7 +10,7 @@
         <item>
             <title>Initialisation du Feed RSS</title>
             <guid isPermaLink="true">https://asteria-games.github.io</guid>
-            <pubDate>Fri, 2 Apr 2020 21:20:00 +0200</pubDate>
+            <pubDate>Fri, 2 Apr 2020 21:20:00 EST</pubDate>
             <link>https://asteria-games.github.io</link>
             <description>Le feed RSS déployé vous permettra d'obtenir les nouveaux article du site en temps réel</description>
         </item>
