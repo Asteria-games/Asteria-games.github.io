@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <link href="https://asteria-games.github.io/page/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://asteria-games.github.io/page/rss.xml" rel="self" type="application/rss+xml"/>
         <title>Asteria Games</title>
         <link>https://asteria-games.github.io</link>
         <description>Le site Web d'une team de Dev indé qui veulent vivre de leurs passions</description>
