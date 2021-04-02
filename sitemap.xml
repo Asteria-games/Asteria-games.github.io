@@ -9,4 +9,7 @@
     <url>
         <loc>https://asteria-games.github.io/sitemap.xml</loc>
     </url>
+    <url>
+        <loc>https://asteria-games.github.io/rss.xml</loc>
+    </url>
     </urlset>
