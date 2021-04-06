@@ -7,6 +7,6 @@ Paypal: https://paypal.me/AsteriaGames
 
 
 /* SITE */
-Standards: HTML5, CSS3
+Standards: HTML5, CSS3, Bootstrap 4
 Component: Bootstrap
 Software: Visual Studio Code
