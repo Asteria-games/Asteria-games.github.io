@@ -1,3 +1,7 @@
+* {
+    color: #fff;
+}
+
 a.nav-link {
     color: #000;
     text-decoration: none;
@@ -6,4 +10,15 @@ a.nav-link {
 a.nav-link:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+div.card:hover {
+    border-color: #fff;
+    border-radius: 5;
+    cursor: pointer;
+}
+
+img.card-image-top {
+    height: 100%;
+    width: auto;
 }

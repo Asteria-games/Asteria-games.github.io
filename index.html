@@ -22,6 +22,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Asteria Games - accueil</title>
+    <script type="text/javascript">
+        function Foc() {
+            document.getElementById("card");
+            console.log("click")
+        }
+    </script>
 </head>
 <header>
     <div class="container-fluid bg-dark text-white">
@@ -50,12 +56,91 @@
 </header>
 
 <body style="background-color: #333;">
-    <div class="jumbotron jumbotron-fluid">
-        <h3 style="color: #fff;">Site en cours de développement</h3>
+    <div style="margin-top: 100px;" class="container-fluid">
+        <h3 class="text-center">Bienvenue sur <strong>Asteria Games</strong></h3>
     </div>
 
-    <div class="container-fluid">    
-        <p style="color: #fff" id="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi, alias doloribus modi earum debitis sunt amet ipsum fuga reiciendis asperiores eum deleniti eveniet accusantium quidem magnam? Odit, architecto sunt.</p>
+    <div style="margin-top: 90px;" class="container-fluid text-center">
+        <p id="about">Asteria est l’objet d’une communion entre le partage, la passion, et l’envie de créer. Il n’était
+            question à la base que de défis informatiques donnés entre nous, comme lancer un programme DeepL, ou faire
+            un toucher couler. De fils en aiguilles, ceci s’est transformé, et l’envie d’aller plus loin s’est
+            installée. De là, l’entreprise a vu le jour : développer ensemble un jeu. Et pour ça, il nous fallait
+            rassembler une équipe. Depuis son lancement, chacun y met de sa personne, de son savoir-faire, de ses
+            connaissances pour faire avancer le projet. Ce qui nous plaît, c’est de pouvoir échanger avec les membres,
+            c’est une expérience très enrichissante.</p>
+        <h3 style="font-weight: bold; margin-top: 70px;">Nos objectifs</h3>
+        <p style="margin-top: 90px;">En priorité, Asteria à pour but de faire passer aux autres une passion pour le jeux
+            vidéo. C’est la première motivation du collectif, de manière globale. Du côté individuel, participer à
+            l’avancement d’un projet de groupe est pour beaucoup lucratif, que ça soit pour une amélioration
+            personnelle, autant que de partager de nouvelles expériences, tester, apprendre. Pour certains, c’est
+            l’occasion de découvrir l’ambiance de travail, et d’ajouter quelques compétences à leurs CV.</p>
+        <h3 style="font-weight: bold; margin-top: 70px;">Les membres d'Asteria</h3>
+    </div>
+
+    <div id="member" class="carousel slide" data-ride="caroussel">
+        <ul style="list-style: none;" class="caroussel-indicators">
+            <li data-target="#member" data-slide-to="0" class="active"></li>
+            <li data-target="#member" data-slide-to="1"></li>
+        </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-columns card-deck">
+                    <div onclick="Foc()" id="card" class="card bg-dark">
+                        <div class="card-body">
+                            <img src="ressource/image/aether.webp" alt="Photo de profil d'Aether" class="card-image-top mx-auto d-block">
+                            <h4 class="card-title text-center">Aether</h4>
+                            <p class="card-text text-center">chef d’équipe, co-directeur du projet, et Développeur principal</p>
+                        </div>
+                    </div>
+                    <div onclick="Foc()" id="card" class="card bg-dark">
+                        <div class="card-body">
+                            <img src="ressource/image/antte.webp" alt="Photo de profil d'Antte" class="card-image-top mx-auto d-block">
+                            <h4 class="card-title text-center">Antte</h4>
+                            <p class="card-text text-center">compositeur, co-directeur, level designer, bêta-testeur et motivateur humain.</p>
+                        </div>
+                    </div>
+                    <div onclick="Foc()" id="card" class="card bg-dark">
+                        <div class="card-body">
+                            <img src="ressource/image/cerise.webp" alt="Photo de profil de cerise" class="card-image-top mx-auto d-block">
+                            <h4 class="card-title text-center">Cerise</h4>
+                            <p class="card-text text-center">Rédactrice et Co-graphiste</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-columns card-deck">
+                    <div onclick="Foc()" id="card" class="card bg-dark">
+                        <div class="card-body">
+                            <img src="ressource/image/dark_knight.webp" alt="Photo de profil de dark_knight" class="card-image-top mx-auto d-block">
+                            <h4 class="card-title text-center">Dark Knight</h4>
+                            <p class="card-text text-center">assistant level-design</p>
+                        </div>
+                    </div>
+                    <div onclick="Foc()" id="card" class="card bg-dark">
+                        <div class="card-body">
+                            <img src="ressource/image/machina.webp" alt="photo de profil d'omégaMachina" class="card-image-top mx-auto d-block">
+                            <h4 class="card-title text-center">OmégaMachina</h4>
+                            <p class="card-text text-center">Graphiste, modélisateur 3D et développeur</p>
+                        </div>
+                    </div>
+                    <div onclick="Foc()" id="card" class="card bg-dark">
+                        <div class="card-body">
+                            <img src="ressource/image/panthere.webp" alt="Photo de profil de Panthère" class="card-image-top mx-auto d-block">
+                            <h4 class="card-title text-center">Panthère</h4>
+                            <p class="card-text text-center">co-modélisateur 3D et gamer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#member" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#member" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
 </body>
 
