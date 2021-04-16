@@ -8,6 +8,13 @@
         <language>fr</language>
         <copyright>Asteria Games</copyright>
         <item>
+            <title>Test d'update du Feed RSS</title>
+            <guid isPermaLink="true">https://asteria-games.github.io</guid>
+            <pubDate>Fri, 14 Apr 2021 14:45:00 GMT</pubDate>
+            <link>https://asteria-games.github.io</link>
+            <description>Test du lien entre mon Bot et le Feed RSS</description>
+        </item>
+        <item>
             <title>Initialisation du Feed RSS</title>
             <guid isPermaLink="true">https://asteria-games.github.io</guid>
             <pubDate>Fri, 2 Apr 2021 21:53:00 GMT</pubDate>
