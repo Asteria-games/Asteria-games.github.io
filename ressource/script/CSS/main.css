@@ -22,3 +22,7 @@ img.card-image-top {
     height: 100%;
     width: auto;
 }
+
+img.navImg {
+    position: inline;
+}
