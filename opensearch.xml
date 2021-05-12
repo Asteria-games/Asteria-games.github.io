@@ -5,5 +5,5 @@
     <Image>favicon\favicon-32x32.png</Image>
     <Language>fr</Language>
     <InputEncoding>UTF-8</InputEncoding>
-    <Url type="text/html" template="https://asteria-games.github.io/search?q={searchterms}"/>
+    <Url type="text/html" template="https://asteria-games.github.io/tag/{searchterms}"/>
 </OpenSearchDescription>
