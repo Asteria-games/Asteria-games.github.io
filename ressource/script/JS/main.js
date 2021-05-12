@@ -6,6 +6,7 @@ window.onload = function () {
     let machina = document.getElementById("machina");
     let panthere = document.getElementById("panthere");
     let ghost = document.getElementById("ghost");
+    let bleiz = document.getElementById("bleiz");
 
     aether.addEventListener("click", () => {
         if (getComputedStyle(aether).display != "none") {
@@ -48,4 +49,9 @@ window.onload = function () {
             ghost.style.visibility = "hidden";
         }
     });
+    bleiz.addEventListener("click", () => {
+        if (getComputedStyle(bleiz).display != "none") {
+            bleiz.style.visibility = "hidden";
+        }
+    })
 }
